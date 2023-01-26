@@ -19,6 +19,7 @@ $ cd dat2img
 $ source build_all
 ```
 If this doesn't work, see the [documentation](https://pds-imaging.jpl.nasa.gov/data/msl/MSLMHL_0013/SOFTWARE/DOC/MMM_DAT2IMG.TXT) for more detail
+
 4. Move the executable to `/usr/local/` and then add it to the `$PATH`:
 ```bash
 $ mv dat2img /usr/local
@@ -33,7 +34,11 @@ To install:
 
 1. Download the current release from the [website](https://nasa-pds.github.io/transform/install/index.html)
 2. Unpack the `.zip` or `.tar.gz`
-3. Move the directory to `/usr/local`: `$ mv transform-1.11.5 /usr/local`
+3. Move the directory to `/usr/local`: 
+```bash
+$ mv transform-1.11.5 /usr/local
+```
+
 4. Run the following (or add to your `~/.bashrc`):
 ```bash
 $ export PATH=${PATH}:/usr/local/transform-1.11.5/bin
